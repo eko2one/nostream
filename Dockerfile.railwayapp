@@ -81,6 +81,6 @@ USER 1000:1000
 
 RUN mkdir -p $NOSTR_CONFIG_DIR
 
-RUN touch $NOSTR_CONFIG_DIR/settings.json
+RUN touch $NOSTR_CONFIG_DIR/settings.yaml
 
 CMD ["node", "src/index.js"]
